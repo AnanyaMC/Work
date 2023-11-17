@@ -1,0 +1,58 @@
+.container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            }
+
+.canvas {
+            background-color: gold;
+            margin-top: 5px;
+            height: 150px;
+            width: 20%;
+            position: relative;
+            border-radius: 50%;
+            cursor: pointer;
+            }
+      
+.canvas2 {
+            background-color: plum;
+            margin-top: 20px;
+            position: relative;
+            z-index: 1;
+            margin-left: -70px;
+            }
+
+.canvas3 {
+            background-color: pink;
+            margin-top: 5px;
+            position: relative;
+            margin-left: -70px;
+            }
+
+.canvas4{
+    background-color: lawngreen;
+    margin-top: 20px;
+    position: relative;
+    margin-left: -70px
+}
+
+
+.canvas:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    background-color: hsl(39, 100%, 35%);
+}
+
+.canvas2:hover {
+    background-color: hsl(270, 100%, 70%);
+}
+
+.canvas3:hover{
+    z-index: 2;
+    background-color: hsl(330, 100%, 35%);
+}
+
+.canvas4:hover{
+    background-color: #006400;
+}
